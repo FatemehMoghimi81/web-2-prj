@@ -1,0 +1,40 @@
+@import "variables";
+
+//media sizes
+@mixin sm() {
+    @media screen and (max-width : $sm){
+        @content;
+    }
+}
+@mixin md() {
+    @media screen and (max-width : $md){
+        @content;
+    }
+}
+@mixin lg() {
+    @media screen and (max-width : $lg){
+        @content;
+    }
+}
+@mixin xl() {
+    @media screen and (max-width : $xl){
+        @content;
+    }
+}
+//columns
+@function col-calc($grid-columns,$col-num){
+    @return (100% / $grid-columns) * $col-num;
+}
+
+@for $i from 1 through $grid-columns {
+    .col-#{$i}{
+        width: col-calc($grid-columns,$i);
+    }
+}
+//display
+@each $name in $display {
+    .d-#{$name}{
+        display: $name;
+    }
+}
+

@@ -1,0 +1,254 @@
+@import "variables";
+@import "functions";
+
+.container {
+    max-width: 1336px;
+    margin: 0 auto;
+
+    @include sm {
+        max-width: 540px;
+    }
+
+    @include md {
+        max-width: 720px;
+    }
+
+    @include lg {
+        max-width: 960px;
+    }
+
+    @include xl {
+        max-width: 1140px;
+    }
+}
+
+.justify-content-center {
+    justify-content: center
+}
+*{
+    box-sizing: border-box;
+}
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    direction: rtl;
+    
+}
+
+// my styles
+.products-title {
+    justify-content: center;
+
+    h2 {
+        width: auto;
+        align-items: center;
+    }
+
+}
+
+.product-item {
+    display: flex;
+    justify-content: center;
+    width: col-calc($grid-columns, 2);
+
+    a {
+        width: 170px;
+        flex-direction: column;
+        justify-content: center;
+
+        img {
+            width: 100%;
+            height: 170px;
+        }
+
+        div {
+            width: fit-content;
+            align-self: center;
+        }
+    }
+
+    @include lg() {
+        width: col-calc($grid-columns, 4);
+        margin-bottom: 15px;
+
+        a {
+            width: 90px;
+
+            img {
+                height: 90px;
+            }
+        }
+    }
+}
+
+#offer {
+    margin-top: 65px;
+
+    .offer-item {
+        padding: 0 15px;
+        width: col-calc($grid-columns, 5);
+
+        img {
+            width: 100%;
+            border-radius: 16px;
+        }
+    }
+}
+
+#digi-offer {
+    .digi-offer-container {
+        overflow: hidden;
+        border-radius: 16px;
+        border: 1px solid $gray;
+        border-right: 0;
+
+        .digi-offer-item {
+            padding: 16px 4px;
+            flex-direction: column;
+            border: 1px solid $gray;
+            box-sizing: border-box;
+            width: col-calc($grid-columns, 2);
+            align-items: center;
+
+            .img {
+                margin-bottom: 5px;
+                width: fit-content;
+                border-radius: 50%;
+                overflow: hidden;
+                padding: 12px;
+                background-color: #f0f0f1;
+
+                img {
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+        }
+    }
+
+    @include md() {
+        .digi-offer-container {
+            .digi-offer-item {
+                width: col-calc($grid-columns, 3);
+            }
+        }
+    }
+
+    @include sm() {
+        .digi-offer-container {
+            .digi-offer-item {
+                width: col-calc($grid-columns, 4);
+            }
+        }
+    }
+}
+
+#best-brand {
+    .best-brand-container {
+        margin-top: 24px;
+        padding: 24px 0;
+        border-radius: 16px;
+        border: 1px solid $gray;
+
+        .best-brand-item {
+            display: flex;
+            align-items: center;
+            height: 110px;
+            padding: 4px 16px;
+            border-left: 1px solid $gray;
+            border-right: 1px solid $gray;
+
+            img {
+                width: 110px;
+            }
+        }
+    }
+
+    @include md() {
+        .best-brand-container {
+            border: none;
+
+            .best-brand-item {
+                border: none;
+
+                img {
+                    width: 50px;
+                }
+            }
+        }
+    }
+}
+
+#digi-plus {
+    
+    .right-side {
+        width: 25%;
+        background-image: url('../img/4.1.png');
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .left-side {
+        width: 75%;
+
+        .first {
+            margin: 0 5px;
+            width: 48%;
+            padding: 0 10px;
+            background-color: white;
+            border-radius: 16px;
+
+            .first-title {
+                justify-content: space-between;
+                align-items: center;
+
+                .title {
+                    width: auto;
+                    padding: 16px 0;
+                    a,h4 {
+                        font-size: 1.2rem;
+                        font-weight: 700;
+                    }
+
+                }
+            }
+            .content{
+            justify-content: center;
+                flex-wrap: wrap;
+                .item{
+                    margin: 10px 16px;
+                    max-width: 116px;
+                    width: col-calc($grid-columns, 4);
+                    img{
+                        width: 100%;
+                    }
+                    .detail{
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+
+        }
+        
+    }
+    @media screen and (max-width : 1313px){
+        .right-side{
+            width: 50%;
+        }
+        .left-side{
+            width: 50%;
+            .first{
+                width: 44%;
+            }
+        }
+    }
+}

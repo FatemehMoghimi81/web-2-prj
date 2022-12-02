@@ -1,0 +1,348 @@
+@font-face {
+    font-family: IRANSansMedium;
+    src: url('../fonts/IRANSansWeb_Medium.woff2') format('woff2');
+    font-weight: 500
+}
+@font-face {
+    font-family: IRANSansBold;
+    src: url('../fonts/IRANSansWeb_Bold.woff2') format('woff2');
+    font-weight: 700
+}
+
+@font-face {
+    font-family: IRANSansLight;
+    src: url('../fonts/IRANSansWeb_Light.woff2') format('woff2');
+    font-weight: 300
+}
+@font-face {
+	font-family: IRANSans;
+	src: url('../fonts/IRANSansWeb/IRANSansWeb.eot');
+	src: url('../fonts/IRANSansWeb/IRANSansWeb.eot') format('embedded-opentype'), url('../fonts/IRANSansWeb/IRANSansWeb(FaNum).woff') format('woff'), url('../fonts/IRANSansWeb/IRANSansWeb.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal
+}
+/* golobal classes */
+.max-content {
+    width: -moz-max-content;
+    width: max-content;
+    border: 2px dotted rgb(96, 139, 168);
+  }
+.IRANSansMedium{
+    font-family: IRANSansMedium;
+}
+.IRANSansLight{
+    font-family: IRANSansLight;
+}
+.bg-gray-custom{
+    background: #f0f8fa !important;
+}
+.f13{
+    font-size: 13px !important;
+}
+.f15{
+    font-size: 15px !important;
+}
+.f17{
+    font-size: 17px !important;
+}
+.f22{
+    font-size: 22px !important;
+}
+.l1{
+    line-height: 24px;
+}
+*{
+    direction: rtl !important;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+li , ul{
+    background-color: transparent !important;
+}
+body{
+    border-color: #c6d3e6;
+    font-family: IRANSans;
+}
+.btn-edame{
+    color: #4a78c5;
+    background: #e4edf6;
+    margin-bottom: 11px;
+}
+.akhbar-card img{
+    height: 258px;
+}
+.style-header::before{
+    content: '';
+    background-image: url('../img/r_sar.png');
+    width: 43px;
+    height: 37px;
+    display: block;
+    position: absolute;
+    right: -6px;
+    top: -7px;   
+}
+.style-header::after{
+    content: '';
+    background: url('../img/l_circle_sar.svg') no-repeat right top;
+    width: 28px;
+    height: 32px;
+    position: absolute;
+    top: -1px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.drop-header:hover ul{
+    display: block !important;
+}
+.drop-header-item{
+    z-index: 1000 !important;
+    background: rgba(29,23,85,.9) !important;
+    top: 100%;
+}
+.drop-header-link{
+    color: silver !important;
+}
+.drop-header-link:hover{
+    color: white !important;
+}
+.nav-item-custom{
+    font: 15px/40px IRANSansMedium !important;
+    color: #d6d6f8 !important;
+    padding: 0 11px 0 12px !important;
+}
+.header-icon{
+    padding: 8px 11px 8px 4px;
+    color: #7374b7 !important;
+    font-size: 26px !important;
+    border-right: 1px solid #403f8f !important;
+    padding-left: 5px;
+}
+button:focus:not(:focus-visible) {
+    outline: none !important;}
+.header-title{
+    padding: 0 26px 0 37px;
+    margin-right: 37px;
+    border-radius: 20px 0 0 20px;
+    height: 30px;
+    background-color: #2f2f83;
+    text-decoration: none;
+}
+.header-more-btn{
+    border: 1px solid #d4def7;
+    background: #f2f5fa;
+    font: 13px/28px IRANSans;
+    color: #6e83a2;
+    width: 87px;
+    height: 29px;
+}
+.sider-indicators{
+    border-top: 7px !important;
+    width: 15px !important;
+    height: 0 !important;
+    background: #d4deea !important;
+    display: inline-block;
+}
+.costume-collapse-btn-bg{
+    background: #f0f8fa !important;
+}
+.costume-collapse-btn{
+    top: -3px;
+    width: 34px;
+    height: 34px; 
+}
+.tag-section{
+    background: #e4eaf6;
+    height: 59px;
+    border-radius: 7px;
+}
+.tag-section-btn{
+    height: 36px !important;
+    font-size: 14px;
+    border: 1px solid #9bb2db;
+    background: #fff;
+    color: #6b86b3;
+}
+.header-title2{
+    line-height: 56px;
+    color: #003791;
+    border-color: #003791 !important;
+}
+.header-title2:hover{
+    color: red;
+    border-color: red !important;
+}
+.custom-news-item h4{
+    font-size: 15px;
+}
+.custom-news-item img{
+    height: 149px;
+}
+.Motalebarkhat-sub{
+    right: 35%;
+    top: 25px;
+}
+.faslname-bottom{
+    width: 45%;
+    padding-top: 265px;
+}
+.faslname-img{
+    width: 550px;
+}
+.faslname-sub{
+    right: 550px;
+    top: 100px;
+}
+.svg-custom-buy{
+    width: 32px;
+    position: absolute;
+    left: 10px;
+    bottom: 9px;
+    fill: #2c2887;
+    stroke-width: 1px;
+    stroke: #fefffd;
+}
+.infography-news{
+    height: 393px;
+}
+.top-news-title , .infography-news-title , .infography-news-title-small{
+    color: #fff;
+    position: absolute;
+    padding: 15px 26px;
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,.2) 11%,rgba(0,0,0,.8) 51%,rgba(0,0,0,.8) 68%);
+}
+.footer-link{
+    color: #00bef2;
+}
+.footer-list{
+    background: #0e0e4e;
+    font: 14px/25px Iransans;  
+}
+#footer-end ul li span {
+    color: #039fd0;
+    font-weight: 700;}
+.footer-end-link{
+    font: 14px/21px Iransans;
+}
+.footer-icon{
+    width: 30px;
+    color: red;
+}
+/* hover styles */
+a:hover{
+    color: #0c4ab1;
+}
+.tag-section-btn:hover , .tag-section-btn.active{
+    background: #2f2f83;
+    color: #fff;
+}
+.custom-karid-item:hover>a{
+    box-shadow: 0px -1px 7px 0px rgb(163 150 163);
+}
+.custom-karid-item:hover svg{
+    fill: #00bff2;
+}
+.top-news:hover .top-news-title, .infography-news:hover .infography-news-title , .infography-news:hover .infography-news-title-small{
+    background: linear-gradient(to bottom,rgba(14,12,88,0) 0%,rgba(14,12,88,0) 1%,rgba(14,12,88,.4) 11%,rgba(14,12,88,.8) 51%,rgba(14,12,88,.8) 68%);
+}
+.footer-list:hover{
+    color: #00bef2 !important;
+}
+.footer-end-link:hover{
+    color: #a2cff8 !important;
+}
+@media (min-width: 1200px){
+    .custom-news-item , .custom-karid-item{
+        width: 20% !important;
+    }
+}
+/* media for large */
+@media (max-width: 1200px){
+    .akhbar-item img{
+        width: 120px !important;
+    }
+    .akhbar-item p{
+        font-size: 13px;
+    }
+    .w-100-lg{
+        width: 100% !important;
+    }
+    .f12-lg{
+        font-size: 12px !important;
+    }
+    .faslname-bottom{
+        width: 100%;
+        padding-top: 0;
+    }
+    
+}
+/* media for md */
+@media (max-width: 992px){
+    .infography-news-title-small{
+        color: #000000;
+        background: none;
+        width: 50%;
+        position: static;
+    }
+    .faslname-img{
+        width: 350px;
+    }
+    .faslname-sub{
+        right: 350px;
+        top: 50px;
+    }
+    .Motalebarkhat-sub{
+        top: 427px;
+        right: 0;
+    }
+}
+@media (max-width: 768px){
+    .faslname-img{
+        width: 100%;
+        height: 350px;
+        width: 100%;
+    }
+    .faslname-img img{
+        width: 75% !important;
+        height: 100%;
+    }
+    .faslname-sub{
+        top: 416px;
+        width: 100%;
+        right: 0;
+    }
+    .faslname-bottom{
+        padding-top: 280px;
+    }
+}
+/* media for small */
+@media (max-width: 576px){
+    .style-header::before{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 32px;
+    top: -5px;
+    right: -5px;
+
+    }
+    .header-title{
+        padding: 0 10px 0 13px;
+        height: 26px
+    }
+    .f13-sm{
+        font-size: 12px !important;
+    }
+    .header-more-btn{
+        width: 60px;
+    }
+    .header-title2{
+        font-size: 15px !important;
+    }
+    .w-50-sm{
+        width: 50% !important;
+    }
+    .faslname-sub{
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,36 @@
+// media sizes
+$xs: 0;
+$sm: 576px;
+$md: 758px;
+$lg: 1025px;
+$xl: 1200px;
+$xxl: 1400px;
+
+// Grid columns
+$grid-columns:                12 !default;
+$grid-gutter-width:           1.5rem !default;
+$grid-row-columns:            6 !default;
+
+//display
+$display: (
+  inline,
+  inline-block,
+  block,
+  grid,
+  flex,
+  inline-flex,
+  none
+);
+//font sizes
+$default-font-size:         1rem !default;
+$font-size: (
+1.1,  
+1.2,
+1.4,  
+2.1,
+);
+
+//color
+$gray:    #d6d6d6;
+$purple:  #941b80;
+$purple-2:#a63489;

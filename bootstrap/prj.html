@@ -1,0 +1,1309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/custome-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="position-fixed top-0 end-0 start-0" style="direction: rtl; z-index: 500;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-0 position-relative" style="background: #2a2986 !important;">
+            <div class="container p-0">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/logo.png" alt="">
+                </a>
+                <div class="collapse navbar-collapse flex-wrap" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item drop-header">
+                            <a class="nav-link nav-item-custom f12-lg" href="#">
+                                گروه ها
+                            </a>
+                            <ul class="d-none position-absolute drop-header-item">
+                                <li><a class="drop-header-link" href="#">گروه علمی پژوهشی</a></li>
+                                <li><a class="drop-header-link" href="#">گروه علمی پژوهشی</a></li>
+                                <li><a class="drop-header-link" href="#">گروه علمی پژوهشی</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item drop-header">
+                            <a class="nav-link nav-item-custom f12-lg" href="#">
+                                گروه ها
+                            </a>
+                            <ul class="d-none position-absolute drop-header-item">
+                                <li><a class="drop-header-link" href="#">گروه علمی پژوهشی</a></li>
+                                <li><a class="drop-header-link" href="#">گروه علمی پژوهشی</a></li>
+                                <li><a class="drop-header-link" href="#">گروه علمی پژوهشی</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link nav-item-custom f12-lg" aria-current="page" href="#">عکس</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link nav-item-custom f12-lg" href="#">درباره ما</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link nav-item-custom f12-lg" href="#">تماس با ما</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link nav-item-custom f12-lg" href="#">آرشیو</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link nav-item-custom f12-lg" href="#">پژوهشکده مجازی</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex">
+                    <div class="dropdown position-static">
+                        <div class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-user header-icon h-100" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="dropdown-menu position-absolute" aria-labelledby="dropdownMenuLink" style="z-index: 1000 !important;
+    background: rgba(29,23,85,.9) !important;
+    top: 97%; padding: 22px 20px 9px;">
+                            <div class="row mb-2">
+                                <div class="col-auto">
+                                    <input type="text" style="height: 36px;
+                                    background: #fff;
+                                    border: none;
+                                    border-radius: 8px">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-auto">
+                                    <input type="text" style="height: 36px;
+                                    background: #fff;
+                                    border: none;
+                                    border-radius: 8px">
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-auto">
+                                    <a href="" style="font: 14px/31px IransansMedium;
+                                    color: #fff;
+                                    display: block;
+                                    text-align: center;
+                                    margin-bottom: 11px;">رمز عیور را فراموش کرده ام</a>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-auto">
+                                    <a href="" style="font: 14px/31px IransansMedium;
+                                    color: #fff;
+                                    display: block;
+                                    text-align: center;
+                                    margin-bottom: 11px;">فعال سازی ایمیل</a>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-auto">
+                                    <a href="" style="font: 14px/31px IransansMedium;
+                                    color: #fff;
+                                    display: block;
+                                    text-align: center;
+                                    margin-bottom: 11px;">رمز عیور را فراموش کرده ام</a>
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-12">
+                                    <button class="w-100 btn btn-outline-info border-1 border-info">عبور</button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <button class="w-100 btn btn-outline-info border-1 border-info">عبور</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <i class="fa fa-search header-icon h-100" aria-hidden="true"></i>
+                    <button class="me-4 navbar-toggler header-icon border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div style="height: 40px;"></div>
+    <section style="height: 506.333px;">
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <div class="position-relative h-100 p-0  col-lg-6">
+                    <a class="w-100 h-100 top-news" href="#">
+                        <img class="w-100 h-100" src="assets/img/8016_181.jpg" alt="">
+                        <h4 class="f22 IRANSansMedium mb-0 position-absolute bottom-0 end-0 w-100 text-white top-news-title f-sm-17">سازماندهی دستگاه قضا در تکریم مردم و کارکنان</h4>
+                    </a>
+                </div>
+                <div class="position-relative h-100 p-0  col-3 d-none d-lg-block">
+                    <a class="w-100 h-100 top-news" href="#">
+                        <img class="w-100 h-50" src="assets/img/8017_373.jpg" alt="">
+                        <h4 class="f17 IRANSansMedium mb-0  position-absolute bottom-50 w-100 text-white top-news-title">سازماندهی دستگاه قضا در تکریم مردم و کارکنان</h4>
+                    </a>
+                    <a class="w-100 h-100 top-news" href="#">
+                        <img class="w-100 h-50" src="assets/img/8017_373.jpg" alt="">
+                        <h4 class="f17 IRANSansMedium mb-0 position-absolute bottom-0 end-0 w-100 text-white top-news-title">سازماندهی دستگاه قضا در تکریم مردم و کارکنان</h4>
+                    </a>
+                </div>
+                <div class="position-relative h-100 p-0  col-3 d-none d-lg-block">
+                    <a class="w-100 h-100 top-news" href="#">
+                        <img class="w-100 h-50" src="assets/img/7961_152.jpg" alt="">
+                        <h4 class="f17 IRANSansMedium mb-0 position-absolute bottom-50 w-100 text-white top-news-title">سازماندهی دستگاه قضا در تکریم مردم و کارکنان</h4>
+                    </a>
+                    <a class="w-100 h-100 top-news" href="#">
+                        <img class="w-100 h-50" src="assets/img/7963_319.jpg" alt="">
+                        <h4 class="f17 IRANSansMedium mb-0 position-absolute bottom-0 end-0 w-100 text-white top-news-title">سازماندهی دستگاه قضا در تکریم مردم و کارکنان</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-4 py-3">
+        <div class="container">
+            <div class="accordion position-relative " id="accordionAkhbar">
+                <div class="accordion-item border-0">
+                    <div class="accordion-header" id="headingAkhbar">
+                        <div class="d-flex justify-content-between flex-column flex-sm-row">
+                            <div class="style-header">
+
+                                <a href="#" class="f17 IRANSansMedium header-title text-white text-center d-inline-flex align-items-center">اخبار و تازه‌های پژوهشکده</a>
+                            </div>
+                            <div>
+                                <a href="#" class="btn rounded-pill header-more-btn d-flex align-items-center justify-content-center me-auto me-sm-0">
+                                    <span>بیشتر</span>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="border-0 bg-transparent d-none costume-collapse-btn justify-content-center position-absolute end-100 me-1 d-sm-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAkhbar" aria-expanded="true" aria-controls="collapseAkhbar">
+                            <img class="h-100 d-block" src="assets/img/opened.svg" alt="">
+                        </button>
+                    </div>
+                    <div id="collapseAkhbar" class="accordion-collapse collapse show" aria-labelledby="headingAkhbar" data-bs-parent="#accordionAkhbar">
+                        <div class="accordion-body px-0">
+                            <div class="row">
+                                <div class="card akhbar-card col-md-4 position-relative border-0">
+                                    <a href="#"><img class="card-img-top" src="assets/img/7755_566.jpeg" alt="Title"></a>
+                                    <div class="card-body">
+                                        <p class="card-text text-muted f13">آقای اصلانی در مصاحبه با رادیو گفتگو مطرح کرد</p>
+                                        <h4 class="card-title f17 IRANSansMedium"><a href="#">جنگ ۳۳ روز، پایه‌های تمدن نوین اسلامی را شکل داد.</a></h4>
+                                        <div class="card-text f13 pb-2">
+                                            <span class="text-primary">تاریخ انتشار</span>
+                                            <span class="text-primary">۰۴ شهريور ۱۴۰۰</span>
+                                            <span class="text-secondary"> / 2021 july 22</span>
+                                        </div>
+                                        <p class="card-text" style="font-size: 15px;">عماد اصلانی مناره بازاری پژوهشگر گروه سیاست خارجی پژوهشکده تحقیقات راهبردی در مصاحبه با رادیو گفتگو گفت: با پیروزی حزب‌الله لبنان در جنگ ۳۳ روزه، پایه‌های تمدن نوین اسلامی شکل گرفت.</p>
+                                        <a class="btn-edame rounded-pill position-absolute start-0 bottom-0 f13 px-2 py-1 ms-3" href="#">ادامه مطلب</a>
+                                    </div>
+                                </div>
+                                <div class="card akhbar-card col-md-4 position-relative border-0">
+                                    <a href="#"><img class="card-img-top" src="assets/img/7767_314.jpg" alt="Title"></a>
+                                    <div class="card-body">
+                                        <p class="card-text text-muted f13">اندیشکده دیپلماسی اقتصادی دانشگاه امام صادق (ع) با همکاری پژوهشکده تحقیقات راهبردی برگزار می‌کند</p>
+                                        <h4 class="card-title f17 IRANSansMedium"><a href="#">سومین مدرسه تابستانه دیپلماسی اقتصادی؛ دیپلماسی اقتصادی در محیط همسایگی</a></h4>
+                                        <div class="card-text f13 pb-2">
+                                            <span class="text-primary">تاریخ انتشار</span>
+                                            <span class="text-primary">۰۴ شهريور ۱۴۰۰</span>
+                                            <span class="text-secondary"> / 2021 july 22</span>
+                                        </div>
+                                        <p class="card-text" style="font-size: 15px;">سومین مدرسه تابستانه دیپلماسی اقتصادی در محیط همسایگی با همکاری اندیشکده دیپلماسی اقتصادی دانشگاه امام صادق (ع) و پژوهشکده تحقیقات راهبردی برگزار می‌گردد</p>
+                                        <a class="btn-edame rounded-pill position-absolute start-0 bottom-0 f13 px-2 py-1 ms-3" href="#">ادامه مطلب</a>
+                                    </div>
+                                </div>
+                                <div class="card akhbar-card col-md-4 position-relative border-0">
+                                    <a href="#"><img class="card-img-top" src="assets/img/7723_726.png" alt="Title"></a>
+                                    <div class="card-body">
+                                        <p class="card-text text-muted f13">با همکاری پژوهشکده تحقیقات راهبردی و مرکز رشد دانشگاه امام صادق (ع)</p>
+                                        <h4 class="card-title f17 IRANSansMedium"><a href="#">انتشار اولین شماره فصلنامه راهبرد سلامت و بهداشت.</a></h4>
+                                        <div class="card-text f13 pb-2">
+                                            <span class="text-primary">تاریخ انتشار</span>
+                                            <span class="text-primary">۰۴ شهريور ۱۴۰۰</span>
+                                            <span class="text-secondary"> / 2021 july 22</span>
+                                        </div>
+                                        <p class="card-text" style="font-size: 15px;">اولین شماره فصلنامه راهبرد سلامت و بهداشت منتشر شد.</p>
+                                        <a class="btn-edame rounded-pill position-absolute start-0 bottom-0 f13 px-2 py-1 ms-3" href="#">ادامه مطلب</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-4 bg-gray-custom py-3 position-relative">
+        <div class="container">
+            <div class="accordion position-relative " id="accordion-roydad">
+                <div class="accordion-item bg-gray-custom border-0">
+                    <div class="accordion-header" id="heading-roydad">
+                        <div class="d-flex justify-content-between flex-column flex-sm-row">
+                            <div class="style-header">
+
+                                <a href="#" class="f2 f17 f13-sm IRANSansMedium header-title text-white text-center d-inline-flex align-items-center">رویدادها</a>
+                            </div>
+                            <div>
+                                <a href="#" class="btn rounded-pill header-more-btn d-flex align-items-center justify-content-center me-auto me-sm-0">
+                                    <span>بیشتر</span>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="border-0 costume-collapse-btn-bg d-none costume-collapse-btn justify-content-center position-absolute end-100 me-1 d-sm-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-roydad" aria-expanded="true" aria-controls="collapse-roydad">
+                            <img class="h-100 d-block" src="assets/img/opened.svg" alt="">
+                        </button>
+                    </div>
+                    <div id="collapse-roydad" class="accordion-collapse collapse show" aria-labelledby="heading-roydad" data-bs-parent="#accordion-roydad">
+                        <div class="accordion-body px-0">
+                            <div class="row m-0">
+                                <div class="col-12 overflow-scroll tag-section d-flex justify-content-center align-items-center ">
+                                    <a class="active tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>آخرین رویدادها</span>
+                                    </a>
+                                    <a class="tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>راهبرد ایرانی</span>
+                                    </a>
+                                    <a class="tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>رویداد استراژیک</span>
+                                    </a>
+                                    <a class="tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>آخرین رویدادها</span>
+                                    </a>
+                                </div>
+                                <div class="order-0 col-12 col-md-6 col-lg-5 order-md-1">
+                                    <div class="border-bottom">
+                                        <a class="f17 header-title2 border-bottom d-inline-block" href="#">جدیدترین دعوتنامه ها</a>
+                                    </div>
+                                    <div id="carouselExampleIndicators" class="carousel slide position-relative" data-bs-ride="carousel">
+                                        <div class="carousel-indicators position-absolute bottom-100 justify-content-end ms-0">
+                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="sider-indicators rounded-circle active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="sider-indicators rounded-circle" aria-label="Slide 2"></button>
+                                        </div>
+                                        <div class="carousel-inner" style="padding-top: 46px;">
+                                            <div class="carousel-item active">
+                                                <a href="#">
+                                                    <img src="assets/img/7674_131.png" class="d-block w-100" alt="...">
+                                                    <div class="f17 carousel-caption position-static text-dark top-100 pb-0">
+                                                        <p class="mb-0">دولت سیزدهم و تحولات غرب آسیا و شمال آفریقا؛ چالش‌ها و الزامات</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+
+                                            <div class="carousel-item">
+                                                <img src="assets/img/7896_819.jpg" class="d-block w-100" alt="...">
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-7">
+                                    <div class="border-bottom">
+                                        <a class="f17 header-title2 border-bottom d-inline-block" href="#">جدیدترین دعوتنامه ها</a>
+                                    </div>
+                                    <div class="row" style="padding-top: 46px;">
+                                        <div class="col-12 col-lg-6 mb-3 mb-lg-0">
+                                            <div class="card border-0 bg-gray-custom">
+                                                <a href="#"><img class="card-img-top" src="assets/img/7674_131.png" alt="Title"></a>
+                                                <div class="card-body">
+                                                    <p class="card-text text-muted f13 IRANSansLight">در نشست مسائل اجتماعی ایران بررسی شد</p>
+                                                    <a class="" href="#">
+                                                        <h4 class="f17 IRANSansMedium card-title">بررسی وضعیت اورژانس اجتماعی کشور</h4>
+                                                    </a>
+                                                    <p class="f13 card-text">اورژانس اجتماعی برنامه ای است زیر نظر سازمان بهزیستی کشور در جهت کنترل و کاهش بحران های فردی- خانوادگی و اجتماعی</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-6">
+                                            <div class="mb-3 akhbar-item">
+                                                <a class="d-flex justify-content-between align-items-center IRANSansMedium" href="#" style="font-size: 14px;">
+                                                    <img class="h-auto ms-2" src="assets/img/7674_131.png" alt="" style="width: 142px">
+                                                    <p class="">کشور در جهت کنترل و کاهش بحران های فردی- خانوادگی و اجتماعی</p>
+                                                </a>
+                                            </div>
+                                            <div class="mb-3 akhbar-item">
+                                                <a class="d-flex justify-content-between align-items-center IRANSansMedium" href="#" style="font-size: 14px;">
+                                                    <img class="h-auto ms-2" src="assets/img/7674_131.png" alt="" style="width: 142px">
+                                                    <p class="">کشور در جهت کنترل و کاهش بحران های فردی- خانوادگی و اجتماعی</p>
+                                                </a>
+                                            </div>
+                                            <div class="mb-3 akhbar-item">
+                                                <a class="d-flex justify-content-between align-items-cente IRANSansMedium" href="#" style="font-size: 14px;">
+                                                    <img class="h-auto ms-2" src="assets/img/7674_131.png" alt="" style="width: 142px">
+                                                    <p class="">کشور در جهت کنترل و کاهش بحران های فردی- خانوادگی و اجتماعی</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-4 py-3">
+        <div class="container">
+            <div class="accordion position-relative " id="accordionYaddashtElmi">
+                <div class="accordion-item border-0">
+                    <div class="accordion-header" id="headingYaddashtElmi">
+                        <div class="d-flex justify-content-between flex-column flex-sm-row">
+                            <div class="style-header">
+
+                                <a href="#" class="f2 f13-sm f17 IRANSansMedium header-title text-white text-center d-inline-flex align-items-center">یادداشت های علمی</a>
+                            </div>
+                            <div>
+                                <a href="#" class="btn rounded-pill header-more-btn d-flex align-items-center justify-content-center me-auto me-sm-0">
+                                    <span>بیشتر</span>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="border-0 bg-transparent d-none costume-collapse-btn justify-content-center position-absolute end-100 me-1 d-sm-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseYaddashtElmi" aria-expanded="true" aria-controls="collapseYaddashtElmi">
+                            <img class="h-100 d-block" src="assets/img/opened.svg" alt="">
+                        </button>
+                    </div>
+                    <div id="collapseYaddashtElmi" class="accordion-collapse collapse show" aria-labelledby="headingYaddashtElmi" data-bs-parent="#accordionYaddashtElmi">
+                        <div class="accordion-body px-0">
+                            <div class="row gy-3 m-0">
+                                <div class="col-sm-12 overflow-scroll tag-section d-flex justify-content-center align-items-center">
+                                    <a class="active tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>آخرین رویدادها</span>
+                                    </a>
+                                    <a class="tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>راهبرد ایرانی</span>
+                                    </a>
+                                    <a class="tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>رویداد استراژیک</span>
+                                    </a>
+                                    <a class="tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>آخرین رویدادها</span>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-3 custom-news-item">
+                                    <div class="card h-100 border-0">
+                                        <a href="#"><img class="card-img-top" src="assets/img/7983_313.jpg" alt="Title"></a>
+                                        <div class="card-body">
+                                            <p class="card-text text-muted f13">به بهانه تنش امریکا</p>
+                                            <a href="#">
+                                                <h4 class="card-title f13 IRANSansMedium">عامل تایوان و سیاست امریکا</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-3 custom-news-item">
+                                    <div class="card h-100 border-0">
+                                        <a href="#"><img class="card-img-top" src="assets/img/7973_252.jpg" alt="Title"></a>
+                                        <div class="card-body">
+                                            <p class="card-text text-muted f13">ایران از دریچه سالمندی جمعیت</p>
+                                            <a href="#">
+                                                <h4 class="card-title f13 IRANSansMedium">سالمندی جمعیت و ضرورت تغییر سیاست‌های رفاه و تأمین اجتماعی</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-3 custom-news-item">
+                                    <div class="card h-100 border-0">
+                                        <a href="#"><img class="card-img-top" src="assets/img/7961_152.jpg" alt="Title"></a>
+                                        <div class="card-body">
+                                            <p class="card-text text-muted f13">اجلاس تغییرات اقلمی گلاسکو</p>
+                                            <a href="#">
+                                                <h4 class="card-title f13 IRANSansMedium">ابهامات چندجانبه گرایی دولتی در کاهش مسایل زیست محیطی جهانی</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-3 custom-news-item">
+                                    <div class="card h-100 border-0">
+                                        <a href="#"><img class="card-img-top" src="assets/img/7983_313.jpg" alt="Title"></a>
+                                        <div class="card-body">
+                                            <p class="card-text text-muted f13">به بهانه تنش امریکا</p>
+                                            <a href="#">
+                                                <h4 class="card-title f13 IRANSansMedium">عامل تایوان و سیاست امریکا</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-3 custom-news-item">
+                                    <div class="card h-100 border-0">
+                                        <a href="#"><img class="card-img-top" src="assets/img/7973_252.jpg" alt="Title"></a>
+                                        <div class="card-body">
+                                            <p class="card-text text-muted f13">ایران از دریچه سالمندی جمعیت</p>
+                                            <a href="#">
+                                                <h4 class="card-title f13 IRANSansMedium">سالمندی جمعیت و ضرورت تغییر سیاست‌های رفاه و تأمین اجتماعی</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-3 custom-news-item">
+                                    <div class="card h-100 border-0">
+                                        <a href="#"><img class="card-img-top" src="assets/img/7961_152.jpg" alt="Title"></a>
+                                        <div class="card-body">
+                                            <p class="card-text text-muted f13">اجلاس تغییرات اقلمی گلاسکو</p>
+                                            <a href="#">
+                                                <h4 class="card-title f13 IRANSansMedium">ابهامات چندجانبه گرایی دولتی در کاهش مسایل زیست محیطی جهانی</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-3 custom-news-item">
+                                    <div class="card h-100 border-0">
+                                        <a href="#"><img class="card-img-top" src="assets/img/7983_313.jpg" alt="Title"></a>
+                                        <div class="card-body">
+                                            <p class="card-text text-muted f13">به بهانه تنش امریکا</p>
+                                            <a href="#">
+                                                <h4 class="card-title f13 IRANSansMedium">عامل تایوان و سیاست امریکا</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-3 custom-news-item">
+                                    <div class="card h-100 border-0">
+                                        <a href="#"><img class="card-img-top" src="assets/img/7973_252.jpg" alt="Title"></a>
+                                        <div class="card-body">
+                                            <p class="card-text text-muted f13">ایران از دریچه سالمندی جمعیت</p>
+                                            <a href="#">
+                                                <h4 class="card-title f13 IRANSansMedium">سالمندی جمعیت و ضرورت تغییر سیاست‌های رفاه و تأمین اجتماعی</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-3 custom-news-item">
+                                    <div class="card h-100 border-0">
+                                        <a href="#"><img class="card-img-top" src="assets/img/7961_152.jpg" alt="Title"></a>
+                                        <div class="card-body">
+                                            <p class="card-text text-muted f13">اجلاس تغییرات اقلمی گلاسکو</p>
+                                            <a href="#">
+                                                <h4 class="card-title f13 IRANSansMedium">ابهامات چندجانبه گرایی دولتی در کاهش مسایل زیست محیطی جهانی</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Motalebarkhat -->
+    <section class="mt-4 bg-gray-custom py-3 position-relative">
+        <div class="container">
+            <div class="accordion position-relative " id="accordionMotalebarkhat">
+                <div class="accordion-item bg-gray-custom border-0">
+                    <div class="accordion-header" id="headingMotalebarkhat">
+                        <div class="d-flex justify-content-between flex-column flex-sm-row">
+                            <div class="style-header">
+
+                                <a href="#" class="f13-sm f17 IRANSansMedium header-title text-white text-center d-inline-flex align-items-center">مطالعه بر خط</a>
+                            </div>
+                            <div>
+                                <a href="#" class="btn rounded-pill header-more-btn d-flex align-items-center justify-content-center me-auto me-sm-0">
+                                    <span>بیشتر</span>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="border-0 costume-collapse-btn-bg d-none costume-collapse-btn justify-content-center position-absolute end-100 me-1 d-sm-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMotalebarkhat" aria-expanded="true" aria-controls="collapseMotalebarkhat">
+                            <img class="h-100 d-block" src="assets/img/opened.svg" alt="">
+                        </button>
+                    </div>
+                    <div id="collapseMotalebarkhat" class="accordion-collapse collapse show" aria-labelledby="headingMotalebarkhat" data-bs-parent="#accordionMotalebarkhat">
+                        <div class="accordion-body px-0">
+                            <div class="row m-0">
+                                <div class="col-12 overflow-scroll tag-section d-flex justify-content-center align-items-center">
+                                    <a class="active tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>آخرین رویدادها</span>
+                                    </a>
+                                    <a class="tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>راهبرد ایرانی</span>
+                                    </a>
+                                    <a class="tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>رویداد استراژیک</span>
+                                    </a>
+                                    <a class="tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>آخرین رویدادها</span>
+                                    </a>
+                                </div>
+                                <div class="col-12 p-0">
+                                    <div class="row position-relative">
+                                        <div class="col-lg-4 mt-4" style="background: #dfeaec; border-radius: 16px;">
+                                            <a class="m-auto" href="#">
+                                                <img class="m-auto w-100 Motalebarkhat-img" src="assets/img/8_668.png" alt="" style=" height: 390px;">
+                                            </a>
+                                        </div>
+                                        <div class="position-absolute Motalebarkhat-sub w-auto">
+                                            <a href="#">
+                                                <span>دوماهنامه بنیان</span>
+                                            </a>
+                                            <p class="w-auto">ویژه نامه تحلیل بحران کرونا</p>
+                                        </div>
+                                        <div class="col-12 col-lg-8 mt-4 pt-5">
+                                            <div>
+                                                <div class="border-bottom mb-3">
+                                                    <a class="f2 header-title2 border-bottom d-inline-block" href="#">برگزیده صفحات</a>
+                                                </div>
+                                                <div class="row">
+                                                    <a class="col-3" href="#"><img class="w-100 d-block" src="assets/img/8_714.jpg" alt=""></a>
+                                                    <a class="col-3" href="#"><img class="w-100 d-block" src="assets/img/8_738.jpg" alt=""></a>
+                                                    <a class="col-3" href="#"><img class="w-100 d-block" src="assets/img/8_714.jpg" alt=""></a>
+                                                    <a class="col-3" href="#"><img class="w-100 d-block" src="assets/img/8_738.jpg" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-4 py-3 position-relative">
+        <div class="container">
+            <div class="accordion position-relative " id="accordionMosahebeElmi">
+                <div class="accordion-item border-0">
+                    <div class="accordion-header" id="headingMosahebeElmi">
+                        <div class="d-flex justify-content-between flex-column flex-sm-row">
+                            <div class="style-header">
+
+                                <a href="#" class="f13-sm f17 IRANSansMedium header-title text-white text-center d-inline-flex align-items-center">مصاحبه علمی پژوهشی</a>
+                            </div>
+                            <div>
+                                <a href="#" class="btn rounded-pill header-more-btn d-flex align-items-center justify-content-center me-auto me-sm-0">
+                                    <span>بیشتر</span>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="border-0 d-none costume-collapse-btn justify-content-center position-absolute end-100 me-1 d-sm-flex bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMosahebeElmi" aria-expanded="true" aria-controls="collapseMosahebeElmi">
+                            <img class="h-100 d-block" src="assets/img/opened.svg" alt="">
+                        </button>
+                    </div>
+                    <div id="collapseMosahebeElmi" class="accordion-collapse collapse show" aria-labelledby="headingMosahebeElmi" data-bs-parent="#accordionMosahebeElmi">
+                        <div class="accordion-body px-0">
+                            <div class="row m-0">
+                                <div class="col-12 overflow-scroll tag-section d-flex justify-content-center align-items-center">
+                                    <a class="active tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>آخرین رویدادها</span>
+                                    </a>
+                                    <a class="tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>راهبرد ایرانی</span>
+                                    </a>
+                                    <a class="tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>رویداد استراژیک</span>
+                                    </a>
+                                    <a class="tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>آخرین رویدادها</span>
+                                    </a>
+                                </div>
+                                <div class="col-12 pt-3">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-md-4 col-lg-3 custom-news-item">
+                                            <div class="card border-0">
+                                                <img class="card-img-top rounded-circle w-75 w-50-sm m-auto" src="assets/img/7777_662.jpg" alt="Title">
+                                                <div class="card-body border-0">
+                                                    <div class="f13 text-muted border-bottom pb-1 mb-2" style="border-bottom-style: dotted;">
+                                                        <span>تاریخ انتشار:</span>
+                                                        <span>۱۰ شهريور ۱۴۰۰ | ۱۲:۱۰</span>
+                                                    </div>
+                                                    <p class="card-text f13 text-muted mb-2">عله پور در گفت وگوی مشروح با باشگاه خبرنگاران جوان تشریح کرد</p>
+                                                    <h4 class="card-title IRANSansMedium" style="font-size: 14px;"><a href="#">تبیین پنجاه سال روابط دیپلماتیک ایران و چین</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-4 col-lg-3 custom-news-item">
+                                            <div class="card border-0">
+                                                <img class="card-img-top rounded-circle w-75 w-50-sm m-auto" src="assets/img/7777_662.jpg" alt="Title">
+                                                <div class="card-body border-0">
+                                                    <div class="f13 text-muted border-bottom pb-1 mb-2" style="border-bottom-style: dotted;">
+                                                        <span>تاریخ انتشار:</span>
+                                                        <span>۱۰ شهريور ۱۴۰۰ | ۱۲:۱۰</span>
+                                                    </div>
+                                                    <p class="card-text f13 text-muted mb-2">عله پور در گفت وگوی مشروح با باشگاه خبرنگاران جوان تشریح کرد</p>
+                                                    <h4 class="card-title IRANSansMedium" style="font-size: 14px;"><a href="#">تبیین پنجاه سال روابط دیپلماتیک ایران و چین</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-4 col-lg-3 custom-news-item">
+                                            <div class="card border-0">
+                                                <img class="card-img-top rounded-circle w-75 w-50-sm m-auto" src="assets/img/7777_662.jpg" alt="Title">
+                                                <div class="card-body border-0">
+                                                    <div class="f13 text-muted border-bottom pb-1 mb-2" style="border-bottom-style: dotted;">
+                                                        <span>تاریخ انتشار:</span>
+                                                        <span>۱۰ شهريور ۱۴۰۰ | ۱۲:۱۰</span>
+                                                    </div>
+                                                    <p class="card-text f13 text-muted mb-2">عله پور در گفت وگوی مشروح با باشگاه خبرنگاران جوان تشریح کرد</p>
+                                                    <h4 class="card-title IRANSansMedium" style="font-size: 14px;"><a href="#">تبیین پنجاه سال روابط دیپلماتیک ایران و چین</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-4 col-lg-3 custom-news-item">
+                                            <div class="card border-0">
+                                                <img class="card-img-top rounded-circle w-75 w-50-sm m-auto" src="assets/img/7777_662.jpg" alt="Title">
+                                                <div class="card-body border-0">
+                                                    <div class="f13 text-muted border-bottom pb-1 mb-2" style="border-bottom-style: dotted;">
+                                                        <span>تاریخ انتشار:</span>
+                                                        <span>۱۰ شهريور ۱۴۰۰ | ۱۲:۱۰</span>
+                                                    </div>
+                                                    <p class="card-text f13 text-muted mb-2">عله پور در گفت وگوی مشروح با باشگاه خبرنگاران جوان تشریح کرد</p>
+                                                    <h4 class="card-title IRANSansMedium" style="font-size: 14px;"><a href="#">تبیین پنجاه سال روابط دیپلماتیک ایران و چین</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-4 col-lg-3 custom-news-item">
+                                            <div class="card border-0">
+                                                <img class="card-img-top rounded-circle w-75 w-50-sm m-auto" src="assets/img/7777_662.jpg" alt="Title">
+                                                <div class="card-body border-0">
+                                                    <div class="f13 text-muted border-bottom pb-1 mb-2" style="border-bottom-style: dotted;">
+                                                        <span>تاریخ انتشار:</span>
+                                                        <span>۱۰ شهريور ۱۴۰۰ | ۱۲:۱۰</span>
+                                                    </div>
+                                                    <p class="card-text f13 text-muted mb-2">عله پور در گفت وگوی مشروح با باشگاه خبرنگاران جوان تشریح کرد</p>
+                                                    <h4 class="card-title IRANSansMedium" style="font-size: 14px;"><a href="#">تبیین پنجاه سال روابط دیپلماتیک ایران و چین</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faskname -->
+    <section class="mt-4 py-3 position-relative bg-gray-custom">
+        <div class="container">
+            <div class="accordion position-relative " id="accordionFaskname">
+                <div class="accordion-item border-0 bg-gray-custom">
+                    <div class="accordion-header" id="headingFaskname">
+                        <div class="d-flex justify-content-between flex-column flex-sm-row">
+                            <div class="style-header">
+
+                                <a href="#" class="f13-sm f17 IRANSansMedium header-title text-white text-center d-inline-flex align-items-center">فصلنامه علمی پژوهشی</a>
+                            </div>
+                            <div>
+                                <a href="#" class="btn rounded-pill header-more-btn d-flex align-items-center justify-content-center me-auto me-sm-0">
+                                    <span>بیشتر</span>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="border-0 costume-collapse-btn-bg d-none costume-collapse-btn justify-content-center position-absolute end-100 me-1 d-sm-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaskname" aria-expanded="true" aria-controls="collapseFaskname">
+                            <img class="h-100 d-block" src="assets/img/opened.svg" alt="">
+                        </button>
+                    </div>
+                    <div id="collapseFaskname" class="accordion-collapse collapse show" aria-labelledby="headingFaskname" data-bs-parent="#accordionFaskname">
+                        <div class="accordion-body px-0">
+                            <div class="row m-0">
+                                <div class="col-12 overflow-scroll tag-section d-flex justify-content-center align-items-center">
+                                    <a class="active tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>آخرین رویدادها</span>
+                                    </a>
+                                    <a class="tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>راهبرد ایرانی</span>
+                                    </a>
+                                    <a class="tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>رویداد استراژیک</span>
+                                    </a>
+                                    <a class="tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>آخرین رویدادها</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-wrap pt-5 position-relative">
+                                <div class="faslname-img d-flex justify-content-center">
+                                    <img src="assets/img/6608_697.png" alt="" class="w-100">
+                                </div>
+                                <div class="position-absolute faslname-sub">
+                                    <h3><a class="f22" href="#">فصل نامه علمی پژوهشی راهبرد</a></h3>
+                                    <p class="f2 pt-2" style="line-height: 29px;">این فصلنامه از سال ۱۳۷۱ تاکنون فعال است و به استناد مصوبه شورای راهبری وزارت عتف از بین ۴۰۶ نشریه (۱۳۸۹) جایگاه نخست و در سال ۱۳۹۰ از بین ۶۳۰ و همچنین در سال ۱۳۹۱ از بین ۸۸۷ نشریه جایگاه هفتم را از نظر ضریب تأثیر (IF) در پایگاه استنادی علوم جهان اسلام (ISC) کسب نموده است و تاکنون بیش از هزار مقاله در حوزه‌های مختلف به چاپ رسانیده است.</p>
+                                </div>
+                                <div class="faslname-bottom">
+                                    <div>
+                                        <div class="border-bottom">
+                                            <a class="f2 header-title2 border-bottom d-inline-block" href="#">هیئت مدیره</a>
+                                        </div>
+                                        <div class="pt-3 mx-auto w-auto">
+                                            <div>
+                                                <img class="w-100" src="assets/img/3972_356.png" alt="">
+                                            </div>
+                                            <div class="pt-4 f17 f13-sm text-muted">
+                                                <span>تعداد مقالات: 1532</span>
+                                                <span class="me-5">مقالات ارسالی: 2161</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-4 py-3">
+        <div class="container">
+            <div class="accordion position-relative " id="accordionYaddashtElmi">
+                <div class="accordion-item border-0">
+                    <div class="accordion-header" id="headingYaddashtElmi">
+                        <div class="d-flex justify-content-between flex-column flex-sm-row">
+                            <div class="style-header">
+
+                                <a href="#" class="f13-sm f17 IRANSansMedium header-title text-white text-center d-inline-flex align-items-center">یادداشت های علمی</a>
+                            </div>
+                            <div>
+                                <a href="#" class="btn rounded-pill header-more-btn d-flex align-items-center justify-content-center me-auto me-sm-0">
+                                    <span>بیشتر</span>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="border-0 bg-transparent d-none costume-collapse-btn justify-content-center position-absolute end-100 me-1 d-sm-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseYaddashtElmi" aria-expanded="true" aria-controls="collapseYaddashtElmi">
+                            <img class="h-100 d-block" src="assets/img/opened.svg" alt="">
+                        </button>
+                    </div>
+                    <div id="collapseYaddashtElmi" class="accordion-collapse collapse show" aria-labelledby="headingYaddashtElmi" data-bs-parent="#accordionYaddashtElmi">
+                        <div class="accordion-body px-0">
+                            <div class="row gy-3 m-0">
+                                <div class=" col-sm-12 overflow-scroll tag-section d-flex justify-content-center align-items-center">
+                                    <a class="active tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>آخرین رویدادها</span>
+                                    </a>
+                                    <a class="tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>راهبرد ایرانی</span>
+                                    </a>
+                                    <a class="tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>رویداد استراژیک</span>
+                                    </a>
+                                    <a class="tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>آخرین رویدادها</span>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-3 custom-news-item">
+                                    <div class="card h-100 border-0">
+                                        <a href="#"><img class="card-img-top" src="assets/img/7148_917.jpg" alt="Title"></a>
+                                        <div class="card-body">
+                                            <p class="card-text text-muted f13">به بهانه تنش امریکا</p>
+                                            <a href="#">
+                                                <h4 class="card-title f13 IRANSansMedium">عامل تایوان و سیاست امریکا</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-3 custom-news-item">
+                                    <div class="card h-100 border-0">
+                                        <a href="#"><img class="card-img-top" src="assets/img/7148_917.jpg" alt="Title"></a>
+                                        <div class="card-body">
+                                            <p class="card-text text-muted f13">به بهانه تنش امریکا</p>
+                                            <a href="#">
+                                                <h4 class="card-title f13 IRANSansMedium">عامل تایوان و سیاست امریکا</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-3 custom-news-item">
+                                    <div class="card h-100 border-0">
+                                        <a href="#"><img class="card-img-top" src="assets/img/7148_917.jpg" alt="Title"></a>
+                                        <div class="card-body">
+                                            <p class="card-text text-muted f13">به بهانه تنش امریکا</p>
+                                            <a href="#">
+                                                <h4 class="card-title f13 IRANSansMedium">عامل تایوان و سیاست امریکا</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-3 custom-news-item">
+                                    <div class="card h-100 border-0">
+                                        <a href="#"><img class="card-img-top" src="assets/img/7148_917.jpg" alt="Title"></a>
+                                        <div class="card-body">
+                                            <p class="card-text text-muted f13">به بهانه تنش امریکا</p>
+                                            <a href="#">
+                                                <h4 class="card-title f13 IRANSansMedium">عامل تایوان و سیاست امریکا</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-3 custom-news-item">
+                                    <div class="card h-100 border-0">
+                                        <a href="#"><img class="card-img-top" src="assets/img/7148_917.jpg" alt="Title"></a>
+                                        <div class="card-body">
+                                            <p class="card-text text-muted f13">به بهانه تنش امریکا</p>
+                                            <a href="#">
+                                                <h4 class="card-title f13 IRANSansMedium">عامل تایوان و سیاست امریکا</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-3 custom-news-item">
+                                    <div class="card h-100 border-0">
+                                        <a href="#"><img class="card-img-top" src="assets/img/7148_917.jpg" alt="Title"></a>
+                                        <div class="card-body">
+                                            <p class="card-text text-muted f13">به بهانه تنش امریکا</p>
+                                            <a href="#">
+                                                <h4 class="card-title f13 IRANSansMedium">عامل تایوان و سیاست امریکا</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-3 custom-news-item">
+                                    <div class="card h-100 border-0">
+                                        <a href="#"><img class="card-img-top" src="assets/img/7148_917.jpg" alt="Title"></a>
+                                        <div class="card-body">
+                                            <p class="card-text text-muted f13">به بهانه تنش امریکا</p>
+                                            <a href="#">
+                                                <h4 class="card-title f13 IRANSansMedium">عامل تایوان و سیاست امریکا</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-3 custom-news-item">
+                                    <div class="card h-100 border-0">
+                                        <a href="#"><img class="card-img-top" src="assets/img/7148_917.jpg" alt="Title"></a>
+                                        <div class="card-body">
+                                            <p class="card-text text-muted f13">به بهانه تنش امریکا</p>
+                                            <a href="#">
+                                                <h4 class="card-title f13 IRANSansMedium">عامل تایوان و سیاست امریکا</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-3 custom-news-item">
+                                    <div class="card h-100 border-0">
+                                        <a href="#"><img class="card-img-top" src="assets/img/7148_917.jpg" alt="Title"></a>
+                                        <div class="card-body">
+                                            <p class="card-text text-muted f13">به بهانه تنش امریکا</p>
+                                            <a href="#">
+                                                <h4 class="card-title f13 IRANSansMedium">عامل تایوان و سیاست امریکا</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-4 py-3 position-relative">
+        <div class="container">
+            <div class="accordion position-relative " id="accordionKaridGozaresh">
+                <div class="accordion-item border-0 ">
+                    <div class="accordion-header" id="headingKaridGozaresh">
+                        <div class="d-flex justify-content-between flex-column flex-sm-row">
+                            <div class="style-header">
+
+                                <a href="#" class="f13-sm f17 IRANSansMedium header-title text-white text-center d-inline-flex align-items-center">خرید گزارش های موضوعی علمی پژوهشی</a>
+                            </div>
+                            <div>
+                                <a href="#" class="btn rounded-pill header-more-btn d-flex align-items-center justify-content-center me-auto me-sm-0">
+                                    <span>بیشتر</span>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="border-0 bg-transparent d-none costume-collapse-btn justify-content-center position-absolute end-100 me-1 d-sm-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseKaridGozaresh" aria-expanded="true" aria-controls="collapseKaridGozaresh">
+                            <img class="h-100 d-block" src="assets/img/opened.svg" alt="">
+                        </button>
+                    </div>
+                    <div id="collapseKaridGozaresh" class="accordion-collapse collapse show" aria-labelledby="headingKaridGozaresh" data-bs-parent="#accordionKaridGozaresh">
+                        <div class="accordion-body px-0">
+                            <div class="row m-0">
+                                <div class="col-12 overflow-scroll tag-section d-flex justify-content-center align-items-center">
+                                    <a class="active tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>آخرین رویدادها</span>
+                                    </a>
+                                    <a class="tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>راهبرد ایرانی</span>
+                                    </a>
+                                    <a class="tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>رویداد استراژیک</span>
+                                    </a>
+                                    <a class="tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>آخرین رویدادها</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row m-0 mt-3 justify-content-center">
+                                <div class="card col-6 col-md-4 col-lg-3 border-0 custom-karid-item">
+                                    <a class="position-relative" href="#">
+                                        <svg class="svg-custom-buy" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.12 24.96">
+                                            <g id="Layer_2" data-name="Layer 2">
+                                                <g id="Layer_1-2" data-name="Layer 1">
+                                                    <path class="cls-1" d="M27.12,7.44c-.8,2.83-1.62,5.65-2.41,8.48-.67,2.42-1.47,3-4,3H11.13c-2.15,0-3.05-.66-3.65-2.7C6.18,11.86,4.87,7.47,3.61,3.07a1.34,1.34,0,0,0-1.5-1.16A9.42,9.42,0,0,1,0,1.44V0H3.6a3.66,3.66,0,0,1,2,2.76c.24,1.1.65,2.16,1,3.26h8.56l0,0v6.39l-.34.16c-.55-.63-1.09-1.26-1.66-1.88s-1.07-1-1.74-.3-.14,1.16.33,1.63c1.07,1.07,2.18,2.11,3.21,3.23a1.37,1.37,0,0,0,2.32,0c1.09-1.11,2.21-2.2,3.31-3.31.45-.45.81-1,.24-1.55s-1.14-.3-1.65.21-1.27,1.25-2.08,2V6l0,0c2.86,0,5.72,0,8.57,0a5.55,5.55,0,0,1,1.53.45Z"></path>
+                                                    <path class="cls-1" d="M10.32,25c-1.52-1.18-1.73-2.75-.49-3.64a2,2,0,0,1,2.57,3.13,8,8,0,0,1-.64.51Z"></path>
+                                                    <path class="cls-1" d="M20.4,25c-1.37-1-1.71-2.31-.89-3.31a2.14,2.14,0,0,1,3-.19,2.11,2.11,0,0,1,.05,2.9,8.32,8.32,0,0,1-.71.6Z"></path>
+                                                    <path class="cls-1" d="M15.14,6c0-1.63-.06-3.25,0-4.87A3.44,3.44,0,0,1,15.6,0h1A4,4,0,0,1,17,1.27c.05,1.58,0,3.16,0,4.75l0,0H15.11Z"></path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                        <img class="card-img-top" src="assets/img/143_318.jpg" alt="Title">
+                                    </a>
+                                    <div class="card-body px-0">
+                                        <h4 class="card-title f15 IRANSansMedium"><a href="#">روند افزایش خلق پول و نقدینگی و تأثیر آن بر بحران بانکی</a></h4>
+                                    </div>
+                                </div>
+                                <div class="card col-6 col-md-4 col-lg-3 border-0 custom-karid-item">
+                                    <a class="position-relative" href="#">
+                                        <svg class="svg-custom-buy" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.12 24.96">
+                                            <g id="Layer_2" data-name="Layer 2">
+                                                <g id="Layer_1-2" data-name="Layer 1">
+                                                    <path class="cls-1" d="M27.12,7.44c-.8,2.83-1.62,5.65-2.41,8.48-.67,2.42-1.47,3-4,3H11.13c-2.15,0-3.05-.66-3.65-2.7C6.18,11.86,4.87,7.47,3.61,3.07a1.34,1.34,0,0,0-1.5-1.16A9.42,9.42,0,0,1,0,1.44V0H3.6a3.66,3.66,0,0,1,2,2.76c.24,1.1.65,2.16,1,3.26h8.56l0,0v6.39l-.34.16c-.55-.63-1.09-1.26-1.66-1.88s-1.07-1-1.74-.3-.14,1.16.33,1.63c1.07,1.07,2.18,2.11,3.21,3.23a1.37,1.37,0,0,0,2.32,0c1.09-1.11,2.21-2.2,3.31-3.31.45-.45.81-1,.24-1.55s-1.14-.3-1.65.21-1.27,1.25-2.08,2V6l0,0c2.86,0,5.72,0,8.57,0a5.55,5.55,0,0,1,1.53.45Z"></path>
+                                                    <path class="cls-1" d="M10.32,25c-1.52-1.18-1.73-2.75-.49-3.64a2,2,0,0,1,2.57,3.13,8,8,0,0,1-.64.51Z"></path>
+                                                    <path class="cls-1" d="M20.4,25c-1.37-1-1.71-2.31-.89-3.31a2.14,2.14,0,0,1,3-.19,2.11,2.11,0,0,1,.05,2.9,8.32,8.32,0,0,1-.71.6Z"></path>
+                                                    <path class="cls-1" d="M15.14,6c0-1.63-.06-3.25,0-4.87A3.44,3.44,0,0,1,15.6,0h1A4,4,0,0,1,17,1.27c.05,1.58,0,3.16,0,4.75l0,0H15.11Z"></path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                        <img class="card-img-top" src="assets/img/143_318.jpg" alt="Title">
+                                    </a>
+                                    <div class="card-body px-0">
+                                        <h4 class="card-title f15 IRANSansMedium"><a href="#">روند افزایش خلق پول و نقدینگی و تأثیر آن بر بحران بانکی</a></h4>
+                                    </div>
+                                </div>
+                                <div class="card col-6 col-md-4 col-lg-3 border-0 custom-karid-item">
+                                    <a class="position-relative" href="#">
+                                        <svg class="svg-custom-buy" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.12 24.96">
+                                            <g id="Layer_2" data-name="Layer 2">
+                                                <g id="Layer_1-2" data-name="Layer 1">
+                                                    <path class="cls-1" d="M27.12,7.44c-.8,2.83-1.62,5.65-2.41,8.48-.67,2.42-1.47,3-4,3H11.13c-2.15,0-3.05-.66-3.65-2.7C6.18,11.86,4.87,7.47,3.61,3.07a1.34,1.34,0,0,0-1.5-1.16A9.42,9.42,0,0,1,0,1.44V0H3.6a3.66,3.66,0,0,1,2,2.76c.24,1.1.65,2.16,1,3.26h8.56l0,0v6.39l-.34.16c-.55-.63-1.09-1.26-1.66-1.88s-1.07-1-1.74-.3-.14,1.16.33,1.63c1.07,1.07,2.18,2.11,3.21,3.23a1.37,1.37,0,0,0,2.32,0c1.09-1.11,2.21-2.2,3.31-3.31.45-.45.81-1,.24-1.55s-1.14-.3-1.65.21-1.27,1.25-2.08,2V6l0,0c2.86,0,5.72,0,8.57,0a5.55,5.55,0,0,1,1.53.45Z"></path>
+                                                    <path class="cls-1" d="M10.32,25c-1.52-1.18-1.73-2.75-.49-3.64a2,2,0,0,1,2.57,3.13,8,8,0,0,1-.64.51Z"></path>
+                                                    <path class="cls-1" d="M20.4,25c-1.37-1-1.71-2.31-.89-3.31a2.14,2.14,0,0,1,3-.19,2.11,2.11,0,0,1,.05,2.9,8.32,8.32,0,0,1-.71.6Z"></path>
+                                                    <path class="cls-1" d="M15.14,6c0-1.63-.06-3.25,0-4.87A3.44,3.44,0,0,1,15.6,0h1A4,4,0,0,1,17,1.27c.05,1.58,0,3.16,0,4.75l0,0H15.11Z"></path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                        <img class="card-img-top" src="assets/img/143_318.jpg" alt="Title">
+                                    </a>
+                                    <div class="card-body px-0">
+                                        <h4 class="card-title f15 IRANSansMedium"><a href="#">روند افزایش خلق پول و نقدینگی و تأثیر آن بر بحران بانکی</a></h4>
+                                    </div>
+                                </div>
+                                <div class="card col-6 col-md-4 col-lg-3 border-0 custom-karid-item">
+                                    <a class="position-relative" href="#">
+                                        <svg class="svg-custom-buy" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.12 24.96">
+                                            <g id="Layer_2" data-name="Layer 2">
+                                                <g id="Layer_1-2" data-name="Layer 1">
+                                                    <path class="cls-1" d="M27.12,7.44c-.8,2.83-1.62,5.65-2.41,8.48-.67,2.42-1.47,3-4,3H11.13c-2.15,0-3.05-.66-3.65-2.7C6.18,11.86,4.87,7.47,3.61,3.07a1.34,1.34,0,0,0-1.5-1.16A9.42,9.42,0,0,1,0,1.44V0H3.6a3.66,3.66,0,0,1,2,2.76c.24,1.1.65,2.16,1,3.26h8.56l0,0v6.39l-.34.16c-.55-.63-1.09-1.26-1.66-1.88s-1.07-1-1.74-.3-.14,1.16.33,1.63c1.07,1.07,2.18,2.11,3.21,3.23a1.37,1.37,0,0,0,2.32,0c1.09-1.11,2.21-2.2,3.31-3.31.45-.45.81-1,.24-1.55s-1.14-.3-1.65.21-1.27,1.25-2.08,2V6l0,0c2.86,0,5.72,0,8.57,0a5.55,5.55,0,0,1,1.53.45Z"></path>
+                                                    <path class="cls-1" d="M10.32,25c-1.52-1.18-1.73-2.75-.49-3.64a2,2,0,0,1,2.57,3.13,8,8,0,0,1-.64.51Z"></path>
+                                                    <path class="cls-1" d="M20.4,25c-1.37-1-1.71-2.31-.89-3.31a2.14,2.14,0,0,1,3-.19,2.11,2.11,0,0,1,.05,2.9,8.32,8.32,0,0,1-.71.6Z"></path>
+                                                    <path class="cls-1" d="M15.14,6c0-1.63-.06-3.25,0-4.87A3.44,3.44,0,0,1,15.6,0h1A4,4,0,0,1,17,1.27c.05,1.58,0,3.16,0,4.75l0,0H15.11Z"></path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                        <img class="card-img-top" src="assets/img/143_318.jpg" alt="Title">
+                                    </a>
+                                    <div class="card-body px-0">
+                                        <h4 class="card-title f15 IRANSansMedium"><a href="#">روند افزایش خلق پول و نقدینگی و تأثیر آن بر بحران بانکی</a></h4>
+                                    </div>
+                                </div>
+                                <div class="card col-6 col-md-4 col-lg-3 border-0 custom-karid-item">
+                                    <a class="position-relative" href="#">
+                                        <svg class="svg-custom-buy" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.12 24.96">
+                                            <g id="Layer_2" data-name="Layer 2">
+                                                <g id="Layer_1-2" data-name="Layer 1">
+                                                    <path class="cls-1" d="M27.12,7.44c-.8,2.83-1.62,5.65-2.41,8.48-.67,2.42-1.47,3-4,3H11.13c-2.15,0-3.05-.66-3.65-2.7C6.18,11.86,4.87,7.47,3.61,3.07a1.34,1.34,0,0,0-1.5-1.16A9.42,9.42,0,0,1,0,1.44V0H3.6a3.66,3.66,0,0,1,2,2.76c.24,1.1.65,2.16,1,3.26h8.56l0,0v6.39l-.34.16c-.55-.63-1.09-1.26-1.66-1.88s-1.07-1-1.74-.3-.14,1.16.33,1.63c1.07,1.07,2.18,2.11,3.21,3.23a1.37,1.37,0,0,0,2.32,0c1.09-1.11,2.21-2.2,3.31-3.31.45-.45.81-1,.24-1.55s-1.14-.3-1.65.21-1.27,1.25-2.08,2V6l0,0c2.86,0,5.72,0,8.57,0a5.55,5.55,0,0,1,1.53.45Z"></path>
+                                                    <path class="cls-1" d="M10.32,25c-1.52-1.18-1.73-2.75-.49-3.64a2,2,0,0,1,2.57,3.13,8,8,0,0,1-.64.51Z"></path>
+                                                    <path class="cls-1" d="M20.4,25c-1.37-1-1.71-2.31-.89-3.31a2.14,2.14,0,0,1,3-.19,2.11,2.11,0,0,1,.05,2.9,8.32,8.32,0,0,1-.71.6Z"></path>
+                                                    <path class="cls-1" d="M15.14,6c0-1.63-.06-3.25,0-4.87A3.44,3.44,0,0,1,15.6,0h1A4,4,0,0,1,17,1.27c.05,1.58,0,3.16,0,4.75l0,0H15.11Z"></path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                        <img class="card-img-top" src="assets/img/143_318.jpg" alt="Title">
+                                    </a>
+                                    <div class="card-body px-0">
+                                        <h4 class="card-title f15 IRANSansMedium"><a href="#">روند افزایش خلق پول و نقدینگی و تأثیر آن بر بحران بانکی</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-4 py-3 position-relative">
+        <div class="container">
+            <div class="accordion position-relative " id="accordionInografi">
+                <div class="accordion-item border-0 ">
+                    <div class="accordion-header" id="headingInografi">
+                        <div class="d-flex justify-content-between flex-column flex-sm-row">
+                            <div class="style-header">
+
+                                <a href="#" class="f13-sm f17 IRANSansMedium header-title text-white text-center d-inline-flex align-items-center">اینوگرافیک های علمی پژوهشی</a>
+                            </div>
+                            <div>
+                                <a href="#" class="btn rounded-pill header-more-btn d-flex align-items-center justify-content-center me-auto me-sm-0">
+                                    <span>بیشتر</span>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="border-0 bg-transparent d-none costume-collapse-btn justify-content-center position-absolute end-100 me-1 d-sm-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInografi" aria-expanded="true" aria-controls="collapseInografi">
+                            <img class="h-100 d-block" src="assets/img/opened.svg" alt="">
+                        </button>
+                    </div>
+                    <div id="collapseInografi" class="accordion-collapse collapse show" aria-labelledby="headingInografi" data-bs-parent="#accordionInografi">
+                        <div class="accordion-body px-0">
+                            <div class="row m-0">
+                                <div class="col-12 overflow-scroll tag-section d-flex justify-content-center align-items-center">
+                                    <a class="active tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>آخرین رویدادها</span>
+                                    </a>
+                                    <a class="tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>راهبرد ایرانی</span>
+                                    </a>
+                                    <a class="tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>رویداد استراژیک</span>
+                                    </a>
+                                    <a class="tag-section-btn rounded-pill px-3 d-inline mx-1 d-flex justify-content-center align-items-center" href="#">
+                                        <span>آخرین رویدادها</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row gy-3 mt-3">
+                                <div class="col-lg-6">
+                                    <a class="position-relative infography-news" href="#">
+                                        <img class="w-100 h-100 d-block" src="assets/img/6495_649.jpg" alt="">
+                                        <h4 class="f22 IRANSansMedium position-absolute bottom-0 end-0 w-100 text-white infography-news-title">سازماندهی دستگاه قضا در تکریم مردم و کارکنان</h4>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <a class="position-relative infography-news" href="#">
+                                        <img class="w-100 h-100 d-block" src="assets/img/6495_649.jpg" alt="">
+                                        <h4 class="f22 IRANSansMedium position-absolute bottom-0 end-0 w-100 text-white infography-news-title">سازماندهی دستگاه قضا در تکریم مردم و کارکنان</h4>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4">
+                                    <a class="position-relative infography-news" href="#">
+                                        <div class="row">
+                                            <div class="col-6 col-lg-12 position-relative">
+                                                <img class="w-100 h-100 d-block" src="assets/img/6509_597.jpg" alt="">
+                                            </div>
+                                            <h4 class="f17 IRANSansMedium infography-news-title-small f2 fw-normal position-lg-absolute bottom-0 end-0">سازماندهی دستگاه قضا در تکریم مردم و کارکنان</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4">
+                                    <a class="position-relative infography-news" href="#">
+                                        <div class="row">
+                                            <div class="col-6 col-lg-12 position-relative">
+                                                <img class="w-100 h-100 d-block" src="assets/img/6509_597.jpg" alt="">
+                                            </div>
+                                            <h4 class="f17 IRANSansMedium infography-news-title-small f2 fw-normal position-lg-absolute bottom-0 end-0">سازماندهی دستگاه قضا در تکریم مردم و کارکنان</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4">
+                                    <a class="position-relative infography-news" href="#">
+                                        <div class="row">
+                                            <div class="col-6 col-lg-12 position-relative">
+                                                <img class="w-100 h-100 d-block" src="assets/img/6509_597.jpg" alt="">
+                                            </div>
+                                            <h4 class="f17 IRANSansMedium infography-news-title-small f2 fw-normal position-lg-absolute bottom-0 end-0">سازماندهی دستگاه قضا در تکریم مردم و کارکنان</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer style="background: #0e0e4e;" class="pt-5 pb-4">
+        <div class="container">
+            <div id="footer-logo" class="d-flex justify-content-center">
+                <div class="ratio ratio-1x1" style="    width: 184px; height: 141px;">
+                    <div style="background-image: url('assets/img/logo_ft.png'); background-position: center center; background-repeat: no-repeat; background-size: cover;"></div>
+                </div>
+            </div>
+            <div id="footer-main" class=-4">
+                <div class="container">
+                    <div class="row gy-5">
+                        <div class="d-none d-md-block col-3 border-end border-warning pb-5">
+                            <a class="footer-link" href="#">صفحه نخست</a>
+                            <ul class="list-group list-group-flush pe-2" style="background: #0e0e4e;">
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> عمومی</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> هم اندیشی</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> رویداد استراتژیک</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> راهبرد ایرانی(اقتصادی)</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> راهبرد ایرانی(حقوقی-قضایی)</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> راهبرد ایرانی(اجتماعی-فرهنگی)</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> راهبرد ایرانی(سیاسی-امنیتی-دفاعی)</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> سیاست خارجی</a></li>
+    
+                            </ul>
+                        </div>
+                        <div class="d-none d-md-block col-3 border-end border-warning pb-5">
+                            <a class="footer-link" href="#">صفحه نخست</a>
+                            <ul class="list-group list-group-flush pe-2" style="background: #0e0e4e;">
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> عمومی</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> هم اندیشی</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> رویداد استراتژیک</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> راهبرد ایرانی(اقتصادی)</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> راهبرد ایرانی(حقوقی-قضایی)</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> راهبرد ایرانی(اجتماعی-فرهنگی)</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> راهبرد ایرانی(سیاسی-امنیتی-دفاعی)</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> سیاست خارجی</a></li>
+    
+                            </ul>
+                        </div>
+                        <div class="d-none d-md-block col-3 border-end border-warning pb-5">
+                            <a class="footer-link" href="#">صفحه نخست</a>
+                            <ul class="list-group list-group-flush pe-2" style="background: #0e0e4e;">
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> عمومی</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> هم اندیشی</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> سیاست خارجی</a></li>
+    
+                            </ul>
+                        </div>
+                        <div class="d-none d-md-block col-3 border-end border-warning pb-5">
+                            <a class="footer-link" href="#">صفحه نخست</a>
+                            <ul class="list-group list-group-flush pe-2" style="background: #0e0e4e;">
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> عمومی</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> هم اندیشی</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> رویداد استراتژیک</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> راهبرد ایرانی(اقتصادی)</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> سیاست خارجی</a></li>
+    
+                            </ul>
+                        </div>
+                        <div class="d-none d-md-block col-3 border-end border-warning pb-5">
+                            <a class="footer-link" href="#">صفحه نخست</a>
+                            <ul class="list-group list-group-flush pe-2" style="background: #0e0e4e;">
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> عمومی</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> هم اندیشی</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> رویداد استراتژیک</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> راهبرد ایرانی(اقتصادی)</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> راهبرد ایرانی(حقوقی-قضایی)</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> راهبرد ایرانی(اجتماعی-فرهنگی)</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> راهبرد ایرانی(سیاسی-امنیتی-دفاعی)</a></li>
+                                <li class="list-group-item border-0 p-0 f1 text-white"><a class="text-white footer-list" href="#"> سیاست خارجی</a></li>
+    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer-end" class="f13" style="margin-top: 70px; overflow: hidden;">
+                <div class="container">
+    
+                    <div class="row justify-content-center mb-2">
+                        <div class="col-auto">
+                            <ul class="list-group list-group-flush d-flex flex-row">
+                                <li class="list-group-item border-0 p-0"><a class="py-1 px-2 text-white footer-end-link" href="#">عکس</a> <span>|</span></li>
+                                <li class="list-group-item border-0 p-0"><a class="py-1 px-2 text-white footer-end-link" href="#">پیوندها</a><span>|</span></li>
+                                <li class="list-group-item border-0 p-0"><a class="py-1 px-2 text-white footer-end-link" href="#">پژوهشکده مجازی</a><span>|</span></li>
+                                <li class="list-group-item border-0 p-0"><a class="py-1 px-2 text-white footer-end-link" href="#">اوقات شرعی</a><span>|</span></li>
+                                <li class="list-group-item border-0 p-0"><a class="py-1 px-2 text-white footer-end-link" href="#">درباره ما</a><span>|</span></li>
+                                <li class="list-group-item border-0 p-0"><a class="py-1 px-2 text-white footer-end-link" href="#">جست و جو</a><span>|</span></li>
+                                <li class="list-group-item border-0 p-0"><a class="py-1 px-2 text-white footer-end-link" href="#">ارشیو</a></li>
+    
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-muted text-center mb-1">تمام حقوق مادی و معنوی این سایت متعلق به پژوهشکده تحقیقات راهبردی می باشد و استفاده از مطالب با ذکر منبع بلامانع است.</p>
+                        <p class="text-muted text-center mb-1">آدرس: ایران، تهران، خیابان ولیعصر(عج)، خیابان آیت الله طالقانی، نرسیده به پل حافظ، پلاک ۳۷۶</p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="text-muted ms-4">
+                            <span>تلفن:</span>
+                            <span><a class="footer-list text-muted" href="tel">53434</a></span>
+                        </div>
+                        <div class="text-muted ms-4">
+                            <span>تلفن:</span>
+                            <span><a class="footer-list text-muted" href="tel">53434</a></span>
+                        </div>
+                        <div class="text-muted ms-4">
+                            <span>تلفن:</span>
+                            <span><a class="footer-list text-muted" href="tel">53434</a></span>
+                        </div>
+                        <div class="text-muted ms-4">
+                            <span>تلفن:</span>
+                            <span><a class="footer-list text-muted" href="tel">53434</a></span>
+                        </div>
+                        <div class="text-muted ms-4">
+                            <span>تلفن:</span>
+                            <span><a class="footer-list text-muted" href="tel">53434</a></span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center my-4">
+                        <a class="footer-list ms-4" href="#">
+                            <svg class="footer-list" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 89 81.07">
+                                <g id="Layer_2" data-name="Layer 2">
+                                    <g id="Layer_1-2" data-name="Layer 1">
+                                        <path fill="#ff0000"
+                                            d="M70.24,42c-4.13,2.36-8.22,4.77-12.35,7.13-2.26,1.3-3,.86-3-1.77,0-4.89,0-9.78,0-14.67A2.58,2.58,0,0,0,53.43,30c-4.52-2.56-9-5.24-13.46-7.88-2.6-1.53-2.61-2.2-.06-3.7,3.37-2,6.75-4,10.12-5.94,2.59-1.53,2.6-2.35,0-3.89C45.57,6,41.08,3.5,36.67.86A4.14,4.14,0,0,0,32,.82c-4.17,2.49-8.41,4.87-12.61,7.34-2.18,1.28-2.14,2.25.09,3.57,3.95,2.33,7.92,4.62,11.88,6.93,2.35,1.38,2.38,3.16,0,4.53-3.91,2.29-7.81,4.59-11.76,6.81a2.3,2.3,0,0,0-1.34,2.4c.08,2.47,0,5,0,7.42h-.06c0,2.81.07,5.62,0,8.43-.05,1.53-.7,1.87-2.1,1.31a9.93,9.93,0,0,1-1.33-.7c-4-2.29-7.93-4.61-11.91-6.88C.89,40.85.06,41.31,0,43.55c0,4.83,0,9.67,0,14.5a3.75,3.75,0,0,0,2.06,3.56c4.46,2.57,8.88,5.2,13.34,7.76,2.21,1.28,3,.8,3-1.78,0-4.33,0-8.66,0-13,0-2.65.67-3,3-1.72,4.61,2.63,9.24,5.25,13.8,8a2.33,2.33,0,0,0,2.73,0c4.57-2.7,9.19-5.32,13.8-7.95C54,51.59,54.69,52,54.7,54.51c0,4.38,0,8.77,0,13.15,0,2.51.78,3,2.93,1.76,4.51-2.58,9-5.25,13.48-7.83a3.78,3.78,0,0,0,2-3.6c0-4.78,0-9.56,0-14.33C73.11,41.29,72.3,40.82,70.24,42ZM89,19.93c0-2.53-.07-5.06,0-7.59a2.3,2.3,0,0,0-1.29-2.28C82.82,7,77.9,4,73.1.85A4,4,0,0,0,68.3.73C64.16,3.18,60,5.56,55.85,8c-2.27,1.34-2.24,2.32.06,3.66,4.87,2.85,9.75,5.7,14.65,8.49a2.19,2.19,0,0,1,1.3,2.23c-.07,4.67-.06,9.33,0,14,0,2,.88,2.55,2.64,1.55,4.22-2.41,8.42-4.88,12.63-7.3A3.33,3.33,0,0,0,89,27.35C88.91,24.88,89,22.4,89,19.93ZM2.2,40.17c4,2.28,8,4.65,12.05,7,2.15,1.24,2.9.78,2.91-1.74,0-4.55,0-9.1,0-13.65a2.2,2.2,0,0,1,1.28-2.26c4-2.27,8-4.61,12-7,1.7-1,1.73-2,.1-3C26.27,17,22,14.51,17.66,12a3.1,3.1,0,0,0-3.45,0C9.83,14.61,5.41,17.11,1,19.72a2.4,2.4,0,0,0-1,1.66C0,24,0,26.55,0,29.13,0,31.55.12,34,0,36.38A3.75,3.75,0,0,0,2.2,40.17Zm48.4,14.7c-4.18,2.38-8.37,4.75-12.49,7.23a2.5,2.5,0,0,1-3,0c-4.21-2.55-8.49-5-12.77-7.4-1.87-1.06-2.69-.58-2.75,1.58s0,4.27,0,6.4h0c0,2,0,4,0,6.08a4.35,4.35,0,0,0,2.38,4.26q6.29,3.54,12.44,7.3a3.77,3.77,0,0,0,4.36,0Q45,76.61,51.31,73a4.31,4.31,0,0,0,2.33-4.14c0-4.1,0-8.2-.08-12.3C53.52,54,52.8,53.62,50.6,54.87Z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                        <a class="footer-list ms-4" href="#">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="33.1 103.965 362 360" enable-background="new 33.1 103.965 362 360" xml:space="preserve">
+                                <path fill="#42b3a0"
+                                    d="M343.987,398.694c0.851-0.851,1.701-2.126,2.552-2.977c0.85-1.275,1.7-2.126,2.551-3.401s1.701-2.126,2.551-3.402c0.851-1.275,1.701-2.551,2.552-3.4c0.851-1.276,1.7-2.127,2.551-3.402l2.552-3.826c0.85-1.275,1.275-2.127,2.126-3.402s1.275-2.551,2.126-3.826s1.275-2.127,2.126-3.402s1.275-2.551,2.126-3.826c0.425-1.275,1.275-2.552,1.7-3.402c0.851-1.275,1.276-2.551,1.701-4.252c0.425-1.275,1.275-2.551,1.701-3.826c0.425-1.275,1.275-2.977,1.7-4.252l1.275-3.827c0.426-1.275,0.851-2.977,1.701-4.252l1.275-3.827l1.276-4.677l1.275-3.827l1.275-4.677c0.425-1.276,0.425-2.552,0.851-3.827c0.425-1.701,0.425-3.401,0.851-4.678c0.425-1.275,0.425-2.551,0.85-3.826c0.426-1.701,0.426-3.401,0.851-5.103c0-1.275,0.426-2.551,0.426-3.401c0-2.126,0.425-3.826,0.425-5.953c0-0.85,0-2.126,0.425-2.977c0-2.977,0-5.527,0.426-8.504v-0.425c0-88.017-65.481-160.726-150.096-172.631h-0.426c-2.551-0.425-5.103-0.851-8.078-0.851h-2.552c-2.126,0-3.827-0.425-5.953-0.425h-16.157c-1.275,0-2.551,0-3.827,0.425c-1.275,0-2.126,0-3.401,0.425c-1.275,0-2.551,0.425-3.401,0.425c-1.275,0-2.126,0.425-3.401,0.425c-1.276,0-2.552,0.425-3.402,0.425c-1.275,0-2.126,0.425-3.401,0.425s-2.551,0.425-3.401,0.85c-0.851,0-2.126,0.425-2.977,0.425c-1.275,0.425-2.126,0.425-3.401,0.851c-0.851,0.425-2.126,0.425-2.977,0.85c-1.275,0.425-2.126,0.425-3.401,0.851c-0.851,0.425-2.126,0.425-2.977,0.85c-1.275,0.425-2.126,0.851-3.401,0.851c-0.851,0.425-2.126,0.425-2.977,0.851c-1.275,0.425-2.126,0.85-3.401,1.275c-0.851,0.425-2.126,0.851-2.977,0.851c-1.275,0.425-2.126,0.85-3.401,1.275c-0.851,0.425-1.701,0.851-2.977,1.275c-1.275,0.425-2.126,0.851-3.401,1.276l-2.552,1.275c-1.275,0.425-2.126,1.276-3.401,1.701l-2.552,1.275c-1.275,0.425-2.126,1.276-3.401,1.701l-2.551,1.276c-1.275,0.425-2.126,1.275-3.401,2.126l-2.552,1.275c-1.275,0.851-2.551,1.701-3.401,2.126s-7.229,5.103-7.229,5.103s-31.89-24.236-44.646-30.614c-12.756-6.378-27.638,2.551-27.638,17.008v155.624c0,92.268,71.859,167.954,162.852,173.906h19.984c1.701,0,2.977,0,4.678-0.425c1.275,0,2.977,0,4.252-0.425c1.7,0,2.977-0.426,4.677-0.426c1.275,0,2.977-0.425,4.252-0.425c1.275-0.426,2.977-0.426,4.252-0.851c1.276-0.425,2.977-0.425,4.252-0.851c1.276-0.425,2.977-0.851,4.252-0.851c1.276-0.425,2.552-0.425,4.252-0.85l4.253-1.276l3.826-1.275l4.252-1.275l3.827-1.275c1.275-0.426,2.551-0.851,4.252-1.701c1.275-0.425,2.551-0.851,3.827-1.701c1.275-0.425,2.551-1.275,3.826-1.7c1.275-0.426,2.552-1.275,3.827-1.701c1.275-0.425,2.551-1.275,3.827-2.126c1.275-0.425,2.551-1.275,3.826-1.7c1.275-0.851,2.552-1.276,3.827-2.127c1.275-0.85,2.551-1.275,3.401-2.126c1.275-0.85,2.551-1.7,3.827-2.126c1.275-0.85,2.126-1.275,3.401-2.126c1.275-0.85,2.552-1.7,3.401-2.551c1.276-0.851,2.126-1.701,3.402-2.551c1.275-0.851,2.126-1.701,3.401-2.552s2.126-1.7,3.401-2.551s2.126-1.701,3.401-2.977c0.851-0.851,2.127-1.701,2.977-2.551c1.276-0.851,2.126-2.127,2.977-2.977c0.851-0.851,2.126-1.701,2.977-2.977l2.977-2.977c0.851-0.851,1.7-2.126,2.977-2.977C341.861,400.82,342.712,399.97,343.987,398.694L343.987,398.694z">
+                                </path>
+                                <path fill="#0e0e4e" d="M188.789,373.607c-8.504,0-17.434-3.401-24.236-9.779l-54-54.426c-13.182-13.182-13.182-34.867,0-48.048c13.181-13.181,34.866-13.181,48.047,0l30.189,30.189l76.961-76.961c13.182-13.181,34.867-13.181,48.048,0c13.182,13.181,13.182,34.867,0,48.048L212.6,363.402C206.222,370.206,197.293,373.607,188.789,373.607L188.789,373.607z"></path>
+                            </svg>
+                        </a>
+                        <a class="footer-list ms-4" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="#00bef2" class="bi bi-send" viewBox="0 0 16 16">
+                                <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
+                            </svg>
+                        </a>
+                        <a class="footer-list ms-4" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="#00bef2" class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                            </svg>
+                        </a>
+                        <a class="footer-list ms-4" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="#de4d63" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                            </svg>
+                        </a>
+                        <a class="footer-list ms-4" href="#">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="26px" height="26px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+                                <g>
+                                    <g>
+                                        <path fill="#e91e63" d="M214.665,31.71l-39.841-9.742c-40.26-9.847-80.88,14.812-90.728,55.073l-9.967,40.761C108.097,72.192,158.646,41.259,214.665,31.71z"></path>
+                                        <path fill="#e91e63" d="M471.285,221.282l11.438-46.759c9.845-40.262-14.813-80.882-55.074-90.728L385.387,73.46C432.442,109.122,463.595,162.54,471.285,221.282z"></path>
+                                        <path fill="#e91e63" d="M282.446,469.235l48.07,11.755c40.262,9.846,80.883-14.812,90.73-55.074l12.022-49.179C398.099,427.071,343.208,460.712,282.446,469.235z"></path>
+                                        <path fill="#e91e63" d="M33.179,285.256l-10.559,43.179c-9.847,40.262,14.811,80.883,55.071,90.728l45.648,11.164C75.18,396.014,42.611,343.522,33.179,285.256z"></path>
+                                    </g>
+                                    <path fill="#e91e63" d="M252.672,46.092c-111.809,0-202.447,90.639-202.447,202.447c0,111.806,90.638,202.446,202.447,202.446c111.81,0,202.445-90.64,202.445-202.446C455.117,136.73,364.481,46.092,252.672,46.092z M193.837,100.125c32.494,0,58.835,26.341,58.835,58.834s-26.341,58.834-58.835,58.834s-58.834-26.341-58.834-58.834S161.343,100.125,193.837,100.125z M165.06,370.618c-32.494,0-58.834-26.341-58.834-58.833c0-32.493,26.341-58.835,58.834-58.835c32.494,0,58.835,26.342,58.835,58.835C223.895,344.277,197.554,370.618,165.06,370.618z M252.358,276.974c-14.081,0-25.495-11.413-25.495-25.494s11.414-25.495,25.495-25.495c14.08,0,25.494,11.414,25.494,25.495S266.438,276.974,252.358,276.974z M312.147,398.564c-32.494,0-58.834-26.34-58.834-58.834c0-32.491,26.34-58.834,58.834-58.834s58.835,26.343,58.835,58.834C370.982,372.225,344.642,398.564,312.147,398.564z M341.407,244.349c-32.494,0-58.835-26.341-58.835-58.834c0-32.494,26.341-58.834,58.835-58.834s58.834,26.341,58.834,58.834C400.241,218.008,373.901,244.349,341.407,244.349z"></path>
+                                </g>
+                            </svg>
+                        </a>
+                        <a class="footer-list ms-4" href="#">
+                            <i class="fa fa-rss" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="text-muted ms-4">
+                            <span>طراحی و تولید:</span>
+                            <span><a class="footer-list text-muted" href="tel">"ایران سامانه"</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/bootstrap.js"></script>
+</body>
+
+</html>
